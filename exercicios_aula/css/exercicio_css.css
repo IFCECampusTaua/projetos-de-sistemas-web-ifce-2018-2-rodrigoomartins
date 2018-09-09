@@ -1,0 +1,21 @@
+body
+{
+	background: linear-gradient(orange, yellow);
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+
+
+}
+p
+{
+	color: red;
+}
+.p2
+{
+	color:yellow;
+	border: 2px solid blue;
+	border-radius: 25px;
+	margin: 30px;
+	padding: 10px;
+	text-shadow: -5px 1px 4px black;
+}
