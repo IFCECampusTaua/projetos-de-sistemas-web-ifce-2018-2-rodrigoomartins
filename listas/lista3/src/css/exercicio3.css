@@ -1,0 +1,76 @@
+table#tabelaclass {
+  font-family: Arial;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dddddd
+}
+
+table#tabelaclass td.posicoes-1-3{
+  color: #003366;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+table#tabelaclass td#posicoes-4{
+  color: #1398be;
+  font-size:18px;
+  text-align: center;
+  font-weight: bold;
+}
+table#tabelaclass td.posicoes-5-6{
+  color: #de9800;
+  font-size:18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+table#tabelaclass td.nometimes{
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+  padding-right: 120px;
+}
+
+table#tabelaclass td.colunasfundoclass{
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+table#tabelaclass td.colunasclass{
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+  width: 35px;
+}
+
+table#tabelaclass td.colunasfundopontos{
+  background-color: #f7f7f7;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+}
+
+table#tabelaclass tr {
+  border: 1px solid #ddd;
+}
+
+table#tabelaclass td {
+  padding: 4px;
+}
+
+table#tabelaclass tr#separacao4-5{
+  border-bottom: 2px solid #cccccc;
+}
+
+table#tabelaclass td.ultimacoluna{
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+  background-color: #f7f7f7;
+  width: 40px;
+}

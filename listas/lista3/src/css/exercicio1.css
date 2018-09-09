@@ -1,0 +1,25 @@
+#textointerno{
+  font-family: "Verdana";
+  font-size: 12px;
+  text-align: center;
+  line-height: 2;
+
+  padding: 5px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+#gradiente{
+  height: 250px;
+  background-image: linear-gradient(to bottom right, #39a483, deepskyblue, darkblue, black);
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+#linha1{
+  color: darkgreen;
+}
+
+.linha2-3{
+  font-weight: bold;
+}
