@@ -1,0 +1,23 @@
+.esqalto{
+	float: left;
+	background: red;
+}
+
+.diralto{
+	float: right;
+	background: yellow;
+}
+
+.esqbaixo{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	background: green;
+}
+
+.dirbaixo{
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	background: blue;
+}

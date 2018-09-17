@@ -1,0 +1,28 @@
+div#esqalto{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-right: auto;
+
+div#diralto{
+	float: top;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	margin-right: auto;
+}
+
+div#esqbaixo{
+	float: bottom;
+	width: 200px;
+	height: 200px;
+	background: green;
+}
+
+div#dirbaixo{
+	float: bottom-right;
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
