@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo{
+	font-family: arial narrow;
+	padding: 5px;
+    text-align: center;
+    margin: 2px 0;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+.div-main{
+	position: relative;
+	top: 1px;
+	margin-left: 50px;
+    margin-right: 50px;
+    height: 625px;
+    background: beige;
+}
+
+
+#txt1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: linear-gradient(to right, #cc2900, #ff5c33);
+	width: 30%;
+	height: 150px;
+}
+#txt2{
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	background-image: linear-gradient(to right, #1a66ff, #6699ff);
+	width: 30%;
+	height: 475px;
+}
+#txt3{
+	position: absolute;
+	top: 0px;
+	left: 30%;
+	background-image: linear-gradient(to bottom right, #cc9900, #ffbf00);
+	width: 70%;
+	height: 475px;
+	z-index: 1;
+}
+#txt6{
+	position: absolute;
+	top: 250px;
+	left: 70%;
+	background-image: linear-gradient(to right, #b3ffff, #e6ffff);
+	width: 150px;
+	height: 200px;
+	z-index: 2;
+}
+#cx{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px; 
+  	height: 25px;
+  	border-radius: 0px 0px 5px 5px; 
+  	background-image: linear-gradient(to bottom, #66ccff, #b3e6ff);
+  	z-index: 3;
+}
+
+#txt4{
+	position: absolute;
+	top: 475px;
+	left: 30%;
+	background-image: linear-gradient(to right, #0040ff, #002080);
+	width: 50%;
+	height: 150px;
+}
+#txt5{
+	position: absolute;
+	top: 475px;
+	left: 80%;
+	background-image: linear-gradient(to top, #00802b, #00b33c);
+	width: 20%;
+	height: 150px;
+}
+
+@media screen and (max-width: 480px){
+	.div-main{
+		position: relative;
+		top: 1px;
+		margin-left: 15px;
+	    margin-right: 15px;
+	    height: 1300px;
+	    background: beige;
+
+	}
+	#txt1{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-image: linear-gradient(to right, #cc2900, #ff5c33);
+		width: 100%;
+		height: 150px;
+	}
+	#txt2{
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		background-image: linear-gradient(to right, #1a66ff, #6699ff);
+		width: 100%;
+		height: 475px;
+	}
+	#txt3{
+		position: absolute;
+		top: 475px;
+		left: 0px;
+		background-image: linear-gradient(to bottom right, #cc9900, #ffbf00);
+		width: 100%;
+		height: 625px;
+		z-index: 1;
+	}
+	#txt6{
+		position: absolute;
+		top: 825px;
+		left: 39%;
+		background-image: linear-gradient(to right, #b3ffff, #e6ffff);
+		width: 150px;
+		height: 200px;
+		z-index: 2;
+	}
+	#cx{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 150px; 
+	  	height: 25px;
+	  	border-radius: 0px 0px 5px 5px; 
+	  	background-image: linear-gradient(to bottom, #66ccff, #b3e6ff);
+	  	z-index: 3;
+	}
+	#txt4{
+		position: absolute;
+		top: 1100px;
+		left: 0%;
+		background-image: linear-gradient(to right, #0040ff, #002080);
+		width: 100%;
+		height: 150px;
+	}
+	#txt5{
+		position: absolute;
+		top: 1250px;
+		left: 0%;
+		background-color: green;
+		width: 100%;
+		height: 150px;
+	}
+
+
+}
+@media screen and (min-width: 481px) and (max-width: 800px){
+	.div-main{
+		position: relative;
+		top: 1px;
+		margin-left: 40px;
+	    margin-right: 40px;
+	    height: 625px;
+	    background: beige;
+
+	}
+	#txt1{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-image: linear-gradient(to right, #cc2900, #ff5c33);
+		width: 40%;
+		height: 150px;
+	}
+	#txt2{
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		background-image: linear-gradient(to right, #1a66ff, #6699ff);
+		width: 40%;
+		height: 475px;
+	}
+	#txt3{
+		position: absolute;
+		top: 0px;
+		left: 40%;
+		background-image: linear-gradient(to bottom right, #cc9900, #ffbf00);
+		width: 60%;
+		z-index: 1;
+		height: 625px;
+	}
+	#txt6{
+		position: absolute;
+		top: 350px;
+		left: 61%;
+		background-image: linear-gradient(to right, #b3ffff, #e6ffff);
+		width: 150px;
+		height: 200px;
+		z-index: 2;
+	}
+	#cx{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 150px; 
+	  	height: 25px;
+	  	border-radius: 0px 0px 5px 5px; 
+	  	background-image: linear-gradient(to bottom, #66ccff, #b3e6ff);
+	  	z-index: 3;
+	}
+	#txt4{
+		position: absolute;
+		top: 625px;
+		left: 0%;
+		background-image: linear-gradient(to right, #0040ff, #002080);
+		width: 100%;
+		height: 150px;
+	}
+	#txt5{
+		position: absolute;
+		top: 775px;
+		left: 0%;
+		background-color: green;
+		width: 100%;
+		height: 150px;
+	}
+}
