@@ -52,7 +52,7 @@
 #txt6{
 	position: absolute;
 	top: 250px;
-	left: 70%;
+	right: 25px;
 	background-image: linear-gradient(to right, #b3ffff, #e6ffff);
 	width: 150px;
 	height: 200px;
@@ -123,18 +123,18 @@
 	}
 	#txt6{
 		position: absolute;
-		top: 825px;
-		left: 39%;
+		top: 400px;
+		right: 20px;
 		background-image: linear-gradient(to right, #b3ffff, #e6ffff);
-		width: 150px;
-		height: 200px;
+		width: 125px;
+		height: 150px;
 		z-index: 2;
 	}
 	#cx{
 		position: absolute;
 		top: 0px;
 		left: 0px;
-		width: 150px; 
+		width: 125px; 
 	  	height: 25px;
 	  	border-radius: 0px 0px 5px 5px; 
 	  	background-image: linear-gradient(to bottom, #66ccff, #b3e6ff);
@@ -197,17 +197,17 @@
 	#txt6{
 		position: absolute;
 		top: 350px;
-		left: 61%;
+		right: 25px;
 		background-image: linear-gradient(to right, #b3ffff, #e6ffff);
-		width: 150px;
-		height: 200px;
+		width: 140px;
+		height: 175px;
 		z-index: 2;
 	}
 	#cx{
 		position: absolute;
 		top: 0px;
 		left: 0px;
-		width: 150px; 
+		width: 140px; 
 	  	height: 25px;
 	  	border-radius: 0px 0px 5px 5px; 
 	  	background-image: linear-gradient(to bottom, #66ccff, #b3e6ff);
