@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+p{
+	font-family: Verdana;
+	color: white;
+	padding: 20px;
+	padding-left: 20px;
+}
+
+html, body{
+    height: 100%;
+}
+
+#div1{
+	height: 70px;
+	background: blue;
+	padding: 15px;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+
+
+#verde{
+	height: calc(100% - 70px);
+	width: 100%;
+	background-image: linear-gradient(to bottom, green, darkgreen);
+}
+
+#verm{
+	float: left;
+	background-color: red;
+	height: 400px;
+	width: 400px;
+}
